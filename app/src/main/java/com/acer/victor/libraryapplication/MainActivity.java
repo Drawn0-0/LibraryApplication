@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         LogUtil.i("tag","abc");
         LogUtil.LEVEL = LogUtil.NOTHING;
+        LogUtil.i("tag","def");
     }
 }
